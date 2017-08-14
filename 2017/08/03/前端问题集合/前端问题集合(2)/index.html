@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="web,javascript," />
 
 
 
@@ -93,17 +93,18 @@
 
 
 
-<meta name="description" content="记录每一个可以改变自己的瞬间">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="导语出来工作一年多了，接触过许多前端工具相关的知识，在实际的开发中也遇到过许多问题，问题有大有小，每个常见的问题我都把他记录下来，以方便以后忘记的时候可以拿出来预习下，巩固下自己的专业知识。">
+<meta name="keywords" content="web,javascript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端问题整理集合(2)">
+<meta property="og:url" content="http://yoursite.com/2017/08/03/前端问题集合/前端问题集合(2)/index.html">
 <meta property="og:site_name" content="我的个人博客">
-<meta property="og:description" content="记录每一个可以改变自己的瞬间">
+<meta property="og:description" content="导语出来工作一年多了，接触过许多前端工具相关的知识，在实际的开发中也遇到过许多问题，问题有大有小，每个常见的问题我都把他记录下来，以方便以后忘记的时候可以拿出来预习下，巩固下自己的专业知识。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-01T00:53:16.116Z">
+<meta property="og:updated_time" content="2017-08-04T03:23:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="记录每一个可以改变自己的瞬间">
+<meta name="twitter:title" content="前端问题整理集合(2)">
+<meta name="twitter:description" content="导语出来工作一年多了，接触过许多前端工具相关的知识，在实际的开发中也遇到过许多问题，问题有大有小，每个常见的问题我都把他记录下来，以方便以后忘记的时候可以拿出来预习下，巩固下自己的专业知识。">
 
 
 
@@ -131,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/03/前端问题集合/前端问题集合(2)/"/>
 
 
 
 
 
-  <title>tags | 我的个人博客</title>
+  <title>前端问题整理集合(2) | 我的个人博客</title>
   
 
 
@@ -277,25 +278,175 @@
             
 
   <div id="posts" class="posts-expand">
-  <header class="post-header">
+    
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
+  
 
+  
+  
+  
 
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/03/前端问题集合/前端问题集合(2)/">
 
-</header>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="黄向腾">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的个人博客">
+    </span>
 
     
-    
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            目前共计 3 个标签
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">前端问题整理集合(2)</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-03T14:34:53+08:00">
+                2017-08-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/hexo/" style="font-size: 12px; color: #ccc">hexo</a> <a href="/tags/javascript/" style="font-size: 12px; color: #ccc">javascript</a> <a href="/tags/web/" style="font-size: 12px; color: #ccc">web</a>
-        </div>
-      </div>
+      </header>
     
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h4 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h4><blockquote><p>出来工作一年多了，接触过许多前端工具相关的知识，在实际的开发中也遇到过许多问题，问题有大有小，每个常见的问题我都把他记录下来，<br>以方便以后忘记的时候可以拿出来预习下，巩固下自己的专业知识。</p>
+</blockquote>  
+<a id="more"></a>
+<h5 id="git"><a href="#git" class="headerlink" title="git"></a>git</h5><blockquote>
+<ul>
+<li>问题: .gitignore是什么作用?<br>  解决:在使用git提交项目时，需排除提交node依赖的模块，例如node_modules</li>
+</ul>
+<hr>
+<ul>
+<li>问题: 拉取远程分支并创建本地分支<br>  解决: git checkout origin/远程分支名 -b 本地分支名<br>  注解:如本地分支存在，则合并，如不存在则创建 </li>
+</ul>
+<hr>
+<ul>
+<li>问题: error: src refspec integra does not match any.error: failed to push some refs to ‘<a href="http://10.28.5.28:10080/wzy/CloudErpAdmin.git" target="_blank" rel="external">http://10.28.5.28:10080/wzy/CloudErpAdmin.git</a>‘<br>  解决: 新建一个和远程仓库同名的分支后，再push提交</li>
+</ul>
+<hr>
+<ul>
+<li>问题: 回退git版本<br>  解决: git reset –hard “版本名称” //根据git log 查询版本历史</li>
+</ul>
+<hr>
+<ul>
+<li>问题: git add . 的时候遇到warning: LF will be replaced by CRLF in ……<br>  解决: 命令行输入 git config –global core.autocrlf false<br>  原因: 原因是路径中存在 / 的符号转义问题，false就是不转换符号默认是true，相当于把路径的 /符号进行转义，这样添加的时候就有问题</li>
+</ul>
+<hr>
+<ul>
+<li>问题: 测试当前本地git密钥是否和远程仓库连接成功<br>  解决: coding下输入 ssh -T git@git.coding.net github下输入 ssh -T git@github.net</li>
+</ul>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/web/" rel="tag"># web</a>
+          
+            <a href="/tags/javascript/" rel="tag"># javascript</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/03/前端问题集合/前端问题集合(1)/" rel="next" title="前端问题整理集合(1)">
+                <i class="fa fa-chevron-left"></i> 前端问题整理集合(1)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -326,8 +477,17 @@
     <div class="sidebar-inner">
       
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -400,6 +560,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#导语"><span class="nav-number">1.</span> <span class="nav-text">导语</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#git"><span class="nav-number">1.1.</span> <span class="nav-text">git</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -534,10 +710,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
-  
+
 
   
 
